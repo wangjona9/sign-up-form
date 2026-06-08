@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <img src="manhattanBridge.jpg" alt="Manhattan Bridge"/>
+      <form action="/my-handling-form-page" method="post">
+        <h1>
+          <b> THIS IS NOT A REAL ONLINE SERVICE! YOU KNOW YOU NEED SOMETHING LIKE
+          THIS IN YOUR LIFE TO HELP YOU REALIZE YOUR DEEPEST DREAMS. SIGN UP
+          <i>NOW</i> TO GET STARTED. </b>
+        </h1>
+        <h2>YOU <i>KNOW</i> YOU WANT TO.</h2>
+
+        <section>
+          
+          <fieldset>
+            <h3>Let's do this!</h3>
+            <div class="input-group">
+              <div class="row">
+                <div class="field">
+                  <label for="first-name">First Name</label>
+                  <input id="first-name" type="text" />
+                </div>
+            
+                <div class="field">
+                  <label for="last-name">Last Name</label>
+                  <input id="last-name" type="text" />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" />
+                </div>
+            
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" type="tel" />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="field">
+                  <label for="password">Password</label>
+                  <input 
+                    type="password" 
+                    id="password" 
+                    name="password"
+                    required
+                    minlength="8"
+                    maxlength="20"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must be 8-20 characters and include at least one uppercase letter, one lowercase letter, and one number."
+                  >
+                </div>
+            
+                <div class="field">
+                  <label for="password">Confirm Password</label>
+                  <input 
+                    type="password" 
+                    id="password" 
+                    name="password"
+                    required
+                    minlength="8"
+                    maxlength="20"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must be 8-20 characters and include at least one uppercase letter, one lowercase letter, and one number."
+                  >
+                </div>
+              
+              </div>
+
+            </div>
+          </fieldset>
+        </section>
+
+        <p class="button">
+          <button type="submit"><b>Create Account</b></button>
+        </p>
+        <p>
+          Already have an account? <b>Log in</b>
+        </p>
+
+      </form>
+    </div>
+  </body>
+</html>
